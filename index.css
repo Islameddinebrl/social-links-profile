@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 30em;
+    background-color: black;
+   
+}
+.profile{
+    background-color: rgba(63, 63, 63, 0.856);
+
+    width: 90%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    border-radius: 10px;
+}
+@media (min-width: 768px) {
+    .profile {
+        width: 40%; /* Width for desktop devices */
+        max-width: none; /* Reset max-width for desktop devices if needed */
+        position: relative;
+    top: 10%;
+    left: 30%;
+    }
+   
+}
+.im-profile{
+    position: relative;
+    width: 20%;
+    margin-top: 10%;
+    left: 40%;
+    border-radius: 50%;
+}
+h1,h2,h3{
+    color: white; 
+    text-align: center;
+    width: 100%;
+}
+h1{
+    font-size:xx-large;
+}
+h2{
+    color: yellow;
+    font-size: medium;
+}
+h3{
+    font-size: small;
+    margin-top: 5%;
+   
+}
+.profile-liens{
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    align-items: center;
+    
+}
+@media (min-width: 768px) {
+    .profile-liens {
+        width: 60%; /* Width for desktop devices */
+        max-width: none; /* Reset max-width for desktop devices if needed */
+        position: relative;
+    top: 5%;
+    left: 20%;
+    align-items: center;
+    }
+   
+}
+.profile-liens a{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    background-color: rgb(81, 80, 80);
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+.profile-liens a:hover{
+    background-color: rgba(255, 255, 0, 0.626);
+}
